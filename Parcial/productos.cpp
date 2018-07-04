@@ -48,21 +48,21 @@ int main()
     size =  (sizeof(productos)/sizeof(*productos)) ;
 
     // MUESTRO LOS RESULTADOS
-    std::cout << "El producto con mayor stock es: ";
-    std::cout << max;
-    std::cout << "\n";
+    cout << "El producto con mayor stock es: ";
+    cout << max;
+    cout << "\n";
 
-    std::cout << "El producto con menor stock es: ";
-    std::cout << min;
-    std::cout << "\n";
+    cout << "El producto con menor stock es: ";
+    cout << min;
+    cout << "\n";
 
-    std::cout << "La cantidad de productos en stock es: ";
-    std::cout << size;
-    std::cout << "\n";
+    cout << "La cantidad de productos en stock es: ";
+    cout << size;
+    cout << "\n";
 
-    std::cout << "La promedio de stock es: ";
-    std::cout << stockTotal / size;
-    std::cout << "\n";
+    cout << "La promedio de stock es: ";
+    cout << stockTotal / size;
+    cout << "\n";
 
 
 

@@ -8,23 +8,25 @@ int main()
 	int year;
 
 
-    std::cout << "Ingrese el año\n";
-    std::cin >> year;
-    std::cout << "\n";
+    cout << "Ingrese el año\n";
+    cin >> year;
+    cout << "\n";
+
+    //  el % te calcula el resto
     if (year%4 == 0){
     	if (year%100 != 0){
-    		std::cout << "Es bisiesto\n";
+    		cout << "Es bisiesto\n";
     		return 0;
     	}
     	else{
     		if (year%400 == 0){
-    			std::cout << "Es bisiesto\n";
+    			cout << "Es bisiesto\n";
     			return 0;
     		}
 
     	}
     }
 
-	std::cout << "No es bisiesto\n";
+	cout << "No es bisiesto\n";
     return 0;
 }
