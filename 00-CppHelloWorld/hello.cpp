@@ -3,6 +3,9 @@ using namespace std;
 
 int main() 
 {
-    std::cout << "Hola mundo";
+	
+	char    provedor[50] = "Hola mundo\n";
+	
+    std::cout << provedor;
     return 0;
 }

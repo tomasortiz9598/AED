@@ -6,7 +6,7 @@
 #	-Algoritmos y Estructura de datos
 
 # Curso
-#	-K1051
+#	-K1151
 
 # Año
 #	-2018
